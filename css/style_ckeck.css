@@ -1,0 +1,77 @@
+.div {
+    background-color: #fff;
+    width: 600px;
+    height: 300px;
+}
+
+.check {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.radio {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+}
+
+.checkbox-plg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    background-image: url('../img/img_ski/checkbox_empt.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.checkbox-plg.hover {
+    background-image: url('../img/img_ski/checkbox.png');
+    transition: .3s;
+}
+
+.checkbox-plg.checked {
+    background-image: url('../img/img_ski/checkbox.png');
+    transition: .3s;
+}
+
+
+/*.checkbox-plg.disabled {}
+
+.checkbox-plg.checked.disabled {}*/
+
+.iradio-plg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 19px;
+    height: 19px;
+    background-image: url('../../demo/img/rdbox-empty.png');
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    transition: .15s;
+}
+
+.iradio-plg.hover {
+    background-image: url('../../demo/img/rdbox-hover.png');
+    transition: .15s;
+}
+
+.iradio-plg.checked {
+    background-image: url('../../demo/img/rdbox.png');
+    transition: .15s;
+}
+
+.filtr_form label {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: 400;
+}

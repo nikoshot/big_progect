@@ -1,0 +1,669 @@
+body {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    z-index: 1;
+    background-attachment: fixed;
+}
+.body_bg-white {
+    background: #fff;
+	margin-bottom: 50px;
+}
+section.one_ski {
+    display: block;
+    position: relative;
+    z-index: 3;
+}
+
+section.one_ski .filters {
+    display: block;
+	position: relative;
+    width: 220px;
+    float: left;
+}
+
+section.one_ski .filters .body_filter {
+    display: block;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+
+section.one_ski .filters .str_tl {
+    display: block;
+    font-size: 20px;
+    line-height: 21px;
+    color: #333;
+    cursor: pointer;
+}
+
+section.one_ski .filters .filtr_form {
+    display: block;
+    position: relative;
+    margin-top: 15px;
+}
+
+section.one_ski .filters .filtr_form .check {
+    display: block;
+}
+
+section.one_ski .filters .filtr_form .check.ck_inl {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+section.one_ski .filters .filtr_form .sp_tl {
+    display: block;
+    font-size: 13px;
+    line-height: 17px;
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+section.one_ski .filters .filtr_form .check {
+    margin-top: 2px;
+}
+
+section.one_ski .filters .filtr_form .block_info_sl {
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333;
+    font-weight: 500;
+}
+
+section.one_ski .filters .filtr_form .block_info_sl .sl_r {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+}
+
+section.one_ski .filters .filtr_form .block_info_sl .sl_v {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2px;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+}
+
+section.one_ski .filters .block_information {
+    display: block;
+    position: relative;
+    margin-top: 10px;
+}
+
+section.one_ski .filters .block_information .info {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    width: 180px;
+}
+
+section.one_ski .filters .block_information .info i {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #cc1b00;
+    transition: .3s;
+}
+
+section.one_ski .filters .block_information .info p.p_inf {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 10px;
+    color: #333;
+    font-weight: 400;
+    line-height: 12px;
+    margin-left: 10px;
+    width: 140px;
+}
+
+section.one_ski .filters .block_information .info .information {
+    display: none;
+    position: absolute;
+    left: 90%;
+    top: 0;
+    z-index: 15;
+    background-color: #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 16px 10px;
+    width: 260px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+section.one_ski .filters .block_information .info .information p {
+    font-size: 10px;
+    color: #333;
+    font-weight: 400;
+    line-height: 12px;
+}
+
+section.one_ski .filters .block_information .info:hover .information {
+    display: block;
+}
+
+
+/*---FILTRE---*/
+
+.min_max_block {
+    display: block;
+}
+
+.sp_mm {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 14px;
+    line-height: 17px;
+    color: #333;
+    font-weight: 400;
+}
+
+.min_max {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 2px;
+    outline: none;
+    border: none;
+    font-size: 13px;
+    color: #333;
+    font-weight: 400;
+}
+
+.min_bl .min_max {
+    width: 20px;
+}
+
+.max_bl .min_max {
+    width: 15px;
+}
+
+.min_bl {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.max_bl {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 1.3px;
+    float: right;
+}
+
+.grd {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#options {
+    width: 100%;
+    margin-top: 10px;
+}
+
+#slider_price {
+    margin-top: 15px;
+}
+
+
+/*---FILTRE---*/
+
+section.one_ski .filters .body_txt {
+    display: block;
+    margin-top: 20px;
+    background-color: #fff;
+    box-sizing: border-box;
+    padding: 20px 20px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.body_one_ski {
+    display: block;
+    position: relative;
+    padding: 125px 0 0 0;
+}
+
+.body_one_ski .content_ski {
+display: block;
+    position: relative;
+    width: 880px;
+    float: left;
+    margin: 0 auto 60px auto;
+    box-sizing: border-box;
+    padding: 30px 20px 200px 20px;
+    background-color: #fff;
+    min-height: 806px;
+}
+
+.body_one_ski .content_ski .tab_weather {
+    display: block;
+}
+
+.body_one_ski .content_ski .tab_weather ul {
+    display: block;
+    text-align: center;
+}
+
+.body_one_ski .content_ski .tab_weather ul li {
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 20px;
+}
+
+.body_one_ski .content_ski .tab_weather ul li:nth-child(2) {
+    border-right: 2px solid #333;
+}
+
+.body_one_ski .content_ski .tab_weather ul li:nth-child(3) {
+    border-right: 2px solid #333;
+}
+
+.body_one_ski .content_ski .tab_weather ul li:nth-child(4) {
+    border-right: 2px solid #333;
+}
+
+.body_one_ski .content_ski .tab_weather ul li strong {
+    display: block;
+    font-size: 21px;
+    line-height: 21px;
+    color: #333;
+    padding: 0 12px;
+    font-weight: 500;
+}
+
+.body_one_ski .content_ski .tab_weather ul li span {
+    display: block;
+    position: relative;
+    font-size: 21px;
+    line-height: 21px;
+    color: #333;
+    font-weight: 500;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.body_one_ski .content_ski .tab_weather ul li span::after {
+    content: "";
+    height: 0px;
+    width: 0px;
+    background-color: #cc1b00;
+    transition: .3s;
+    position: absolute;
+    left: 50%;
+    bottom: -8px;
+}
+
+.body_one_ski .content_ski .tab_weather ul li span:hover::after {
+    height: 2px;
+    width: 100%;
+    left: 0;
+    transition: .3s;
+}
+
+.body_one_ski .content_ski .tab_weather ul li span.active::after {
+    height: 2px;
+    width: 100%;
+    left: 0;
+    transition: .3s;
+}
+
+.body_one_ski .content_ski .tab_weather_content {
+    display: block;
+    margin-top: 40px;
+}
+
+.body_one_ski .content_ski .tab_weather_content ul.ul_main_w {
+    display: block;
+    text-align: center;
+}
+
+.body_one_ski .content_ski .tab_weather_content ul.ul_main_w li.li_main_w {
+    display: inline-block;
+    vertical-align: top;
+    margin: 40px 30px 0 30px;
+    background-color: #fff;
+    width: 200px;
+    box-sizing: border-box;
+    padding: 20px 10px;
+    border: 1px solid #f0f0f0;
+    -webkit-box-shadow: -1px 14px 35px -19px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 14px 35px -19px rgba(0, 0, 0, 0.75);
+    box-shadow: -1px 14px 35px -19px rgba(0, 0, 0, 0.75);
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w strong {
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    line-height: 21px;
+    color: #333;
+    font-weight: 500;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w ul {
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w ul li {
+    display: inline-block;
+    vertical-align: top;
+    margin: 5px 5px 0 5px;
+    text-align: center;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w ul li .sp_prd {
+    display: block;
+    font-size: 12px;
+    line-height: 14px;
+    color: #333;
+    font-weight: 500;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w ul li .info_w {
+    display: block;
+    margin-top: 4px;
+    text-align: center;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w ul li .info_w .img_w {
+    display: inline-block;
+    vertical-align: middle;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w ul li .info_w .img_w.obl {
+    background-image: url('../img/img_ski/cloudy.png');
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w ul li .info_w .celc_w {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 6px;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w ul li .info_w .celc_w span.sp_p {
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    color: #cc1b00;
+    font-weight: 400;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w ul li .info_w .celc_w span.sp_m {
+    display: block;
+    font-size: 9px;
+    line-height: 14px;
+    color: #6784ff;
+    font-weight: 400;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w .line {
+    display: block;
+    width: 100%;
+    margin: 12px auto 8px auto;
+    height: 1px;
+    background: linear-gradient(to right, rgba(204, 204, 204, 0) 0%, rgba(204, 204, 204, 0.5) 35%, rgba(204, 204, 204, 0.5) 70%, rgba(204, 204, 204, 0) 100%);
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w .block_bt {
+    display: block;
+    text-align: center;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w .block_bt .read_more {
+    display: inline-block;
+    text-decoration: none;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w .block_bt .read_more span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 11px;
+    color: #cc1b00;
+    font-weight: 400;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w .block_bt .read_more i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 2px;
+    margin-left: 2px;
+    font-size: 11px;
+    color: #cc1b00;
+}
+
+.body_one_ski ul.ul_main_w li.li_main_w .block_bt .read_more:hover span {
+    text-decoration: underline;
+}
+
+.tab_main_w {
+    display: none;
+}
+
+.body_one_ski .nav_content {
+    display: block;
+    position: absolute;
+    width: 100%;
+    bottom: 10px;
+    left: 0;
+}
+
+.body_one_ski .nav_content .block_link {
+    display: block;
+    text-align: center;
+}
+
+.body_one_ski .nav_content .block_link .link_a {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    line-height: 22px;
+    color: #cc1b00;
+    text-decoration: none;
+    width: 290px;
+}
+
+.body_one_ski .nav_content .block_link .link_a:last-child {
+    margin-right: 0;
+}
+
+.body_one_ski .nav_content .block_link .link_a span {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 16px;
+    color: #cc1b00;
+}
+
+.body_one_ski .nav_content .block_link .link_a i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 3px;
+    margin-top: 3px;
+    font-size: 15px;
+    color: #cc1b00;
+}
+
+.body_one_ski .nav_content .block_link .link_a:hover span {
+    text-decoration: underline;
+}
+
+.body_one_ski .nav_content .nav_page {
+    display: block;
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+.body_one_ski .nav_content .nav_page ul {
+    display: block;
+    text-align: center;
+}
+
+.body_one_ski .nav_content .nav_page ul li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 5px 0 0;
+}
+
+.body_one_ski .nav_content .nav_page a {
+    display: inline-block;
+    vertical-align: middle;
+    color: #ffffff;
+    background-color: #ccc;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    box-sizing: border-box;
+    line-height: 40px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.body_one_ski .nav_content .nav_page a:hover {
+    background-color: #cc1b00;
+    transition: .3s;
+}
+
+.body_one_ski .nav_content .nav_page li.active a {
+    background-color: #cc1b00;
+    transition: .3s;
+}
+
+@media (max-width: 1800px) {
+    section.one_ski .filters {
+        width: 220px;
+    }
+}
+
+@media (max-width: 1600px) {
+    .body_one_ski .content_ski {
+        width: 878px;
+        float: right;
+    }
+    .body_one_ski .content_ski .tab_weather ul li {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    section.one_ski .filters {
+        width: 190px;
+    }
+    .body_one_ski .content_ski {
+        width: 750px;
+    }
+    .body_one_ski .content_ski .tab_weather ul li {
+        padding: 0 8px;
+    }
+    .body_one_ski .content_ski .tab_weather_content ul.ul_main_w li.li_main_w {
+        margin: 40px 10px 0 10px;
+    }
+    .body_one_ski .content_ski .tab_weather ul li strong {
+        font-size: 17px;
+    }
+    .body_one_ski .content_ski .tab_weather ul li span {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .body_one_ski .content_ski {
+        width: 100%;
+    }
+	.body_bg-white {
+    margin-top: 100px;
+	}
+    section.one_ski .filters {
+        display: block;
+        position: relative;
+        width: 100%;
+        top: 0;
+    }
+    .wrapper_filtr {
+        max-width: 720px;
+        margin: 0 auto;
+        position: relative;
+    }
+    section.one_ski .filters .body_filter {
+        padding: 30px 100px;
+    }
+	.body_txt {
+		padding: 15px 100px !important;
+	}
+    .body_one_ski {
+        padding-top: 0;
+        margin-top: 0;
+    }
+    section.one_ski .filters .block_information .info {
+        width: auto;
+    }
+    section.one_ski .filters .block_information .info p.p_inf {
+        width: auto;
+    }
+    section.one_ski .filters .block_information .info .information {
+        left: 10%;
+        top: 100%;
+    }
+}
+
+@media (max-width: 766px) {
+    .wrapper_filtr {
+        max-width: 500px;
+    }
+	.body_bg-white {
+    margin-top: 150px;
+	}
+    section.one_ski .filters .body_filter {
+        padding: 30px 40px;
+    }
+    .body_one_ski .content_ski .tab_weather ul li {
+        margin: 10px 0;
+    }
+    .body_one_ski .nav_content .block_link {
+        display: block;
+        padding-left: 20px;
+    }
+    .body_one_ski .content_ski .tab_weather ul li:first-child {
+        display: block;
+    }
+    section.one_ski .filters .block_information .info p.p_inf {
+        width: 180px;
+    }
+    section.one_ski .filters .block_information .info .information {
+        left: 0;
+        top: 0;
+        position: relative;
+        box-shadow: none;
+        border-radius: 0;
+        display: block;
+        width: auto;
+    }
+}
+
+@media (max-width: 548px) {
+    .wrapper_filtr {
+        max-width: 300px;
+    }
+    .body_one_ski .nav_content .block_link .link_a {
+        margin-right: 0;
+    }
+}
